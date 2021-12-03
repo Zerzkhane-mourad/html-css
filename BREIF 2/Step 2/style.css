@@ -1,0 +1,17 @@
+ul {
+    list-style: none;  
+}
+li {
+    display: inline;
+    margin: 2%;
+
+}
+a{
+    font-family: 'Libre Baskerville', serif;
+    font-size: large;
+    color: black;
+    text-decoration: none
+}
+li :hover{
+    text-decoration: underline;
+}
