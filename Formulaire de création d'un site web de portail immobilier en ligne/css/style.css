@@ -1,0 +1,169 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(https://meilleurcreditimmo.ma/storage/articles/qMx10t0DbPN5aLM4PpuzbZUAGUGNYxwyjHEEgcym.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.clear
+{
+    clear: both;
+}
+
+.logo img{
+    float: left;
+    width: 90px;
+    height: 90px
+}
+ul {
+    
+    float: left;
+    list-style: none;  
+   
+}
+li {
+    
+    display:inline-block;
+    padding: 35px 50px;
+    font-size: 15px;
+}
+a{
+    
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    text-decoration: none
+}
+li :hover{
+    text-decoration: underline;
+}
+header{
+    background-color:#ebe1b2;
+}
+.ligne{
+    padding-left: 200px;
+}
+.formulaire{
+    margin-left: 800px;
+    max-width: 360px;
+    text-align: center;
+    margin-top: -317px;
+    background-color: rgba(0, 0, 0, 0.432);
+    border-radius: 15px;
+    padding: 15px;
+    color: #ffff;
+    box-sizing: border-box;
+    
+}
+.form{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+section{
+    margin-top: 50px;
+    margin-right: 800px;
+    margin-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.T{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 25px;
+    color: rgb(153, 111, 4);
+
+}
+.N{
+    margin-top: 25px;
+    font-size: 20px;
+}
+input{
+    width: 90%;
+    margin: 6px 0;
+    outline: none;
+    background-color: rgba(253, 253, 253, 0.808);
+    color: rgb(27, 24, 24);
+    padding: 10px 6px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 12px ;
+    border-color: aliceblue;
+}
+button{
+    width: 40%;
+   border-radius: 12px;
+   background-color: #ebe1b2;
+   margin-top: 6px;
+   padding: 9px;
+   font-family: serif;
+}
+@media screen and (max-width: 600px){
+    .logo img{
+        float: left;
+        width: 45px;
+        height: 45px
+    }
+    li {
+        padding: 20px 3px;
+        font-size: 7px;
+    }
+
+    .ligne{
+        padding-left: 30px;
+    }
+    section{
+        margin-right: 100px;
+        margin-top: 15px;
+        margin-left: 3px;    
+    }
+    .T{
+        font-size: 15px;
+    }
+    .N{
+        margin-top: 0px;
+        font-size: 10px;
+    }
+    .titre{
+        font-size: 10px;
+    }
+    .formulaire{
+
+        margin-left: 90px;
+        max-width: 200px;
+        margin-top: 13px;
+        background-color: rgba(0, 0, 0, 0.432);
+        border-radius: 7px;
+        padding: 8px;
+        color: #ffff;
+        box-sizing: border-box;
+        
+    }
+    .form{
+        margin-top: 4px;
+        font-size: 8px;
+    }
+    input{
+        width: 100%;
+        margin: 3px 0;
+        outline: none;
+        background-color: rgba(253, 253, 253, 0.808);
+        color: rgb(27, 24, 24);
+        padding: 10px 3px;
+        font-size: 7px;
+        font-weight: bold;
+        border-radius: 4px ;
+        border-color: aliceblue;
+    }
+    button{
+       width: 40%;
+       border-radius: 4px;
+       background-color: #ebe1b2;
+       margin-top: 4px;
+       padding: 6px;
+       font-size: 8px;
+       font-family: serif;
+       text-align: center;
+    }
+}
