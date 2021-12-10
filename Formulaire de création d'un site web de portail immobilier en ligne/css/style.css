@@ -115,15 +115,15 @@ button{
     }
     section{
         margin-right: 100px;
-        margin-top: 15px;
+        margin-top: px;
         margin-left: 3px;    
     }
     .T{
-        font-size: 15px;
+        font-size: 20px;
     }
     .N{
         margin-top: 0px;
-        font-size: 10px;
+        font-size: 15px;
     }
     .titre{
         font-size: 10px;
@@ -132,7 +132,7 @@ button{
 
         margin-left: 90px;
         max-width: 200px;
-        margin-top: 13px;
+        margin-top: 60px;
         background-color: rgba(0, 0, 0, 0.432);
         border-radius: 7px;
         padding: 8px;
